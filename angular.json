@@ -13,6 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+	    "baseHref": "/MyLearningAngular10_A_VetApp/",
             "outputPath": "dist/VetApp",
             "index": "src/index.html",
             "main": "src/main.ts",
